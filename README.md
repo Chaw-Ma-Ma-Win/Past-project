@@ -60,11 +60,6 @@ This is the website to show my skills and projects.
 
 - In order to run this project you need: Visual studio Code, Internet, GitHub account.
 
-### Setup:
-
-- Clone this repository to your desired folder: Clone this repo with git clone command.
-  https://github.com/Chaw-Ma-Ma-Win/Past-project
-
 ### Install:
 
 - Install this project with: NPM install, Create a .github/workflow folder and add linter.yml in it
