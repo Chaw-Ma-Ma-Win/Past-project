@@ -63,7 +63,7 @@ This is the website to show my skills and projects.
 ### Setup:
 
 - Clone this repository to your desired folder: Clone this repo with git clone command.
-  https://github.com/Chaw-Ma-Ma-Win/Portfolio
+  https://github.com/Chaw-Ma-Ma-Win/Past-project
 
 ### Install:
 
