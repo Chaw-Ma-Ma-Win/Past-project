@@ -1,44 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -47,13 +6,13 @@ For more information on the importance of a professional README for your reposit
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -61,231 +20,97 @@ For more information on the importance of a professional README for your reposit
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# 📖 Portfolio <a name="Portfolio"></a>
 
-# 📖 [your_project_name] <a name="about-project"></a>
+This is the website to show my skills and projects.
 
-> Describe your project in 1 or 2 sentences.
+## 🛠 Built With
 
-**[your_project__name]** is a...
+- HTML
+- CSS
 
-## 🛠 Built With <a name="built-with"></a>
+## Key Features
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- [Content]: World Heritage List
+- [HTML] : This is a Markup Language use to achieve the project
+- [Linters] : This is a tool used in the project to avoide coding error and professionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## 💻 Getting Started
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### You will need the following tools to get started with the project
 
-> Add a link to your deployed project.
+1.  Installation of Git
+2.  Installation of NPM
+3.  A working browser
+4.  Internet connection
+5.  A code editor like Visual Studio Code
+6.  Installation of Live Server plugging in Visual Studio Code
+7.  Linters
 
-- [Live Demo Link](https://google.com)
+## To get a local copy up and running, follow these steps:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- click on the portfolio file
+- navigate to clone and copy the link
+- Clone by http or ssh (i'll advice you clone with ssh)
+- go to your vsCode and use the git clone command to clone the project to your local space.
 
-<!-- GETTING STARTED -->
+## Prerequisites:
 
-## 💻 Getting Started <a name="getting-started"></a>
+- In order to run this project you need: Visual studio Code, Internet, GitHub account.
 
-> Describe how a new developer could make use of your project.
+### Setup:
 
-To get a local copy up and running, follow these steps.
+- Clone this repository to your desired folder: Clone this repo with git clone command.
+  https://github.com/Chaw-Ma-Ma-Win/Portfolio
 
-### Prerequisites
+### Install:
 
-In order to run this project you need:
+- Install this project with: NPM install, Create a .github/workflow folder and add linter.yml in it
+- add .hintrc file, also add .stylelintrc.json file.
 
-<!--
-Example command:
+### Usage:
 
-```sh
- gem install rails
-```
- -->
+- To run the project: right click on your html environment and click on run with live server.
 
-### Setup
+### Run Linter tests:
 
-Clone this repository to your desired folder:
+- To run linter tests, run the following command: npx stylelint "\*_/_.{css,scss}"
 
-<!--
-Example commands:
+## Deployment
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+- You can deploy this project using: Host services
 
-### Install
+# 👥 Author
 
-Install this project with:
+### Chaw Ma Ma Win
 
-<!--
-Example command:
+### GitHub: https://github.com/Chaw-Ma-Ma-Win
 
-```sh
-  cd my-project
-  gem install
-```
---->
+### LinkedIn: [https://www.linkedin.com/in/chaw-ma-ma-win-668665231/]
 
-### Usage
+### Twitter: https://twitter.com/chawmamain
 
-To run the project, execute the following command:
+# 🔭 Future Features
 
-<!--
-Example command:
+- [ ] Animation
+- [ ] Modal pages
 
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
+# 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+# ⭐️ Show your support
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project support it by giving one star⭐️
 
-<!-- SUPPORT -->
+# 🙏 Acknowledgments
 
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+- I would like to thank Microverse and my code reviewer for making me a better programmer
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
